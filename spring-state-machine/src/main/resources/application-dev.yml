@@ -1,0 +1,16 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: spring-state-machine
+
+knife4j:
+  # 开启增强配置 
+  enable: true
+  # 为true则开启生产环境屏蔽
+  production: false
+  basic:
+    enable: true # 此项设置为true表示开启账号密码验证
+    username: admin # enable为true时对应的登陆账号
+    password: admin # enable为true时对应的登陆密码    
