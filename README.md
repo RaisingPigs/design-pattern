@@ -1,11 +1,11 @@
 # design-pattern
 
-### 介绍
+## 介绍
 
 这个项目主要是总结我在工作/实习/项目中用到的设计模式. 这些设计模式的案例, 几乎都是来源于真实的项目. 
 
 
-### state-machine(状态机)
+## state-machine(状态机)
 
 说起状态模式, 就不得不提到状态机. 说起状态机的使用, 就不得不提到我的实习. 
 
@@ -14,16 +14,16 @@
 这个在我的博客中有详细的介绍: https://juejin.cn/post/7275222603886002188
 
 
-#### spring-state-machine
+### spring-state-machine
 
 这里主要展示了spring状态机在sql版本上下线中是如何使用的. 
 
 
-#### state-list-state-machine
+### state-list-state-machine
 
 这里主要展示了状态集合实现的状态机在sql版本上下线中是如何使用的, 这相当于一个简易版的spring状态机. 
 
 
-#### state-pattern-state-machine
+### state-pattern-state-machine
 
 这里主要展示了状态模式实现的状态机在sql版本上下线中是如何使用的. 从中能看到状态模式的一些弊病, 虽然它去掉了大量switch case或者if else控制状态的代码, 但是不完全符合开闭原则, 新增或者删除状态需要修改状态机代码, 新增事件也需要修改很多代码. 
