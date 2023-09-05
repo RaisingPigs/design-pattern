@@ -9,6 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>state-machine</artifactId>
-
     <packaging>pom</packaging>
+
+    <modules>
+        <module>spring-state-machine</module>
+        <module>state-pattern-state-machine</module>
+        <module>state-list-state-machine</module>
+    </modules>
+
 </project>
